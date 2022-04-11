@@ -10,8 +10,6 @@ public class MainActivity extends AppCompatActivity {
     EditText edtNum;
     Button btn5, btn10, btn15, btn35;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,5 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btn10 = findViewById(R.id.btn10);
         btn15 = findViewById(R.id.btn15);
         btn35 = findViewById(R.id.btn35);
+
+        btn5.addOnLayoutChangeListener();
     }
 }
