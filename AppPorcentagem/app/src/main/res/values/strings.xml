@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">AppPorcentagem</string>
+    <string name="app_name">App Porcentagem</string>
+
+    <string name="edtNum">Digite um valor</string>
+    <string name="btn5">5%</string>
+    <string name="btn10">10%</string>
+    <string name="btn15">15%</string>
+    <string name="btn35">35%</string>
 </resources>
